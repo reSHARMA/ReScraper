@@ -1,0 +1,29 @@
+{
+"name": "ReScraper",
+"version": "1.0.0",
+"description": "web scraper",
+"engines": {
+"node": "5.9.1",
+"npm": "4.0.5"
+},
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"dependencies": {
+"request"    : "latest",
+"cheerio"    : "latest" , 
+"express": "^4.14.0"
+},
+"repository": {
+"type": "git",
+"url": "https://github.com/reSHARMA/ReScraper"
+},
+"keywords": [
+"node",
+"express",
+"web",
+"scraper"
+],
+"license": "MIT"
+}
